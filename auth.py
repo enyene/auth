@@ -43,7 +43,7 @@ def login():
             if userDetails[3] == password:
                 operations(userDetails)
         else:
-            print("invalio credentials please try again")
+            print("invalid credentials please try again")
             login()
 
 
